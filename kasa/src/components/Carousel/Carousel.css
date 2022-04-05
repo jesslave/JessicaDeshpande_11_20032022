@@ -1,0 +1,84 @@
+.carousel {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+  }
+  
+  .carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30.9375rem;
+    color: #fff;
+  }
+
+  .carouselPicture {
+    width: 100%;
+    height: 30.9375rem;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
+  .previousButton {
+      position: absolute;
+      z-index: 1;
+      top: 40%;
+      left: 2%;
+      background-color: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+  }
+  
+  .nextButton {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 93%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+  .currentPic {
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 49%;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+
+  @media screen and (max-width: 650px) {
+    
+    .currentPic {
+      left: 43%;
+    }
+
+    .nextButton {
+      left: 75%;
+    }
+
+    .carouselPicture {
+      width: 100%;
+      height: 20.9375rem;
+      object-fit: cover;
+      border-radius: 30px;
+    }
+
+    .carousel-item {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 20.9375rem;
+      color: #fff;
+    }
+  }

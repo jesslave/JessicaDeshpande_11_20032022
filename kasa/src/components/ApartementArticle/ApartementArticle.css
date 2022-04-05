@@ -1,0 +1,41 @@
+.articleApartement {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.articleApartement>h2 {
+    position: absolute;
+    color: #FFF;
+    width: 18.75rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 1;
+}
+
+.articleApartement>img {
+    width: 21.25rem;
+    height: 21.25rem;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.darkerDiv {
+    position: absolute;
+    background: linear-gradient(180deg, transparent 60%, rgba(0, 0, 0, .5));
+    width: 21.25rem;
+    height: 21.25rem;
+    bottom: 2.2rem;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 650px) {
+
+    .articleApartements {
+        background-color: #FFF;
+        padding: 0;
+    }
+}

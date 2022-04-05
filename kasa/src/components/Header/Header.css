@@ -1,0 +1,54 @@
+.linkMenu {
+    padding-right: 4rem;
+}
+
+.linkMenu {
+    list-style: none;
+    color: #FF6060;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0;
+}
+
+.linkMenu:focus {
+    text-decoration-line: underline;
+}
+
+.linkMenu:hover {
+    text-decoration-line: underline;
+}
+
+.mainLogo {
+    width: auto;
+    height: 3.5rem;
+    padding: 4rem;
+}
+
+header {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    .mainLogo {
+        width: auto;
+        height: 2.5rem;
+        padding: 2rem;
+    }
+
+    .linkMenu {
+        padding-right: 2rem;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .navBarHeader {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+}

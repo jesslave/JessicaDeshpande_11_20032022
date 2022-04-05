@@ -1,0 +1,45 @@
+.content {
+    background-color: #F6F6F6;
+    border-radius: 7.5px;
+    cursor: pointer;
+    display: none;
+    justify-content: space-between;
+    height: auto;
+    width: 63.9375rem;
+    padding: 0rem 1rem 1rem 1rem;
+    color:#FF6060;
+    font-size: 1.5rem;
+}
+
+.toggle {
+    background-color: #FF6060;
+    border-radius: 7.5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    height: 0.9375rem;
+    width: 63.9375rem;
+    border: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.show {
+    display: flex;
+}
+
+@media screen and (max-width: 650px) {
+
+    .content {
+        width: 15rem;
+    }
+
+    .toggle {
+        width: 15rem;
+    }
+
+}

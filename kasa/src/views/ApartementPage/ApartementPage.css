@@ -1,0 +1,43 @@
+.mainApartment {
+    padding: 4rem;
+}
+
+.toggle {
+    width: 46.375rem;
+}
+
+.content {
+    width: 46.375rem;
+}
+
+.tagAndRating, .titleAndProfile, .apartmentCollapsible{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 650px) {
+
+    .tagAndRating, .titleAndProfile, .apartmentCollapsible{
+        display: block;
+        width: 100%;
+    }
+
+    .mainApartment {
+        padding: 2rem;
+    }
+
+    .toggle {
+        width: 18.375rem;
+    }
+    
+    .content {
+        width: 18.375rem;
+    }
+
+    .apartmentCollapsible {
+        display: block;
+    }
+
+
+}

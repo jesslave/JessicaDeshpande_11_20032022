@@ -1,0 +1,18 @@
+.mainContent {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.articleApartements {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #F6F6F6;
+  border-radius: 30px;
+  margin: 1rem 3.5rem;
+}

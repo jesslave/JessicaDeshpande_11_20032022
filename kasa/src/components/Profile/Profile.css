@@ -1,0 +1,27 @@
+
+.profileName {
+    font-size: 1rem;
+    color: #FF6060;
+    margin: 0 1rem 0 0;
+}
+
+.profilePic {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+.apartmentProfil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    .apartmentProfil {
+        display: flex;
+        float:right;
+    }
+}

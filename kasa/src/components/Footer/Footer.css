@@ -1,0 +1,19 @@
+footer {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 2rem;
+    width: auto;
+}
+
+@media screen and (max-width: 650px) {
+    .logoFooter {
+        height: 2em;
+        padding: 1rem;
+    }
+
+    .footerLabel {
+        font-size: 0.8rem;
+        margin-bottom: 3rem;
+    }
+}

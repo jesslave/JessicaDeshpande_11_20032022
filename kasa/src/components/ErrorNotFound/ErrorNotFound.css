@@ -1,0 +1,30 @@
+.error404 {
+    text-align: center;
+}
+
+.backToMainMenuLink {
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: underline;
+    margin: 8rem 0;
+    color: #FF6060;
+}
+
+.errorCode {
+    font-size: 18rem;
+    font-weight: 750;
+    margin: 6rem 0 3rem 0;
+    color: #FF6060;
+}
+
+.errorLabel {
+    color: #FF6060;
+}
+
+@media screen and (max-width: 650px) {
+
+    .errorCode {
+        font-size: 8rem;
+        margin: 4rem 0 2rem;
+    }
+}

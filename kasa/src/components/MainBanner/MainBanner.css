@@ -1,0 +1,37 @@
+.banner {
+    position: relative;
+}
+
+.mainImg {
+    width: 77.5rem;
+    height: 13.9375rem;
+    object-fit: cover;
+    border-radius: 30px;
+    position: relative;
+}
+
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+  }
+
+
+@media screen and (max-width: 650px) {
+
+    .mainImg {
+        width: 20rem;
+        height: 10.9375rem;
+    }
+
+    .centeredText {
+        font-size: 1.5rem;
+        transform: translate(-35%, -50%);
+        left: 30%;
+      }
+
+}

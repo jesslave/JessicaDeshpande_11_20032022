@@ -25,7 +25,7 @@ export default function ApartementPage() {
                 <Carousel>
                 {apartment.pictures.map((pictureAdress, index) => (
                   
-                        <CarouselItem><img className="carouselPicture" alt="" src={pictureAdress} key={Date.now()}/></CarouselItem>
+                        <CarouselItem key={index}><img className="carouselPicture" alt="" src={pictureAdress} key={Date.now()}/></CarouselItem>
                     ))}
                 </Carousel>
             </section>

@@ -19,7 +19,8 @@ class App extends Component {
               <Route exact path="/" element={<HomePage />} />
               <Route path="about" element={<AboutPage />} />
               <Route path="apartment/:id" element={<ApartementPage />} />
-              <Route path="notfound" element={<ErrorNotFound />} />
+              <Route path= "NotFound" element={<ErrorNotFound />} />
+              <Route path= "*" element={<ErrorNotFound />} />
             </Routes>
             <Footer/>
         </Router>
